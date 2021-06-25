@@ -1,13 +1,13 @@
 <a href="https://www.hardwario.com/"><img src="https://www.hardwario.com/ci/assets/hw-logo.svg" width="200" alt="HARDWARIO Logo" align="right"></a>
 
-# MP3 Player with YX5300 and Core Module
+# Elevator monitor
 
-[![Travis](https://img.shields.io/travis/bigclownprojects/bcf-radio-elevator-monitor/master.svg)](https://travis-ci.org/bigclownprojects/bcf-radio-elevator-monitor)
+[![Travis](https://www.travis-ci.com/hardwario/twr-radio-elevator-monitor.svg?branch=master)](https://www.travis-ci.com/hardwario/twr-radio-elevator-monitor)
 [![Release](https://img.shields.io/github/release/bigclownprojects/bcf-radio-elevator-monitor.svg)](https://github.com/bigclownprojects/bcf-radio-elevator-monitor/releases)
 [![License](https://img.shields.io/github/license/bigclownprojects/bcf-radio-elevator-monitor.svg)](https://github.com/bigclownprojects/bcf-radio-elevator-monitor/blob/master/LICENSE)
 [![Twitter](https://img.shields.io/twitter/follow/hardwario_en.svg?style=social&label=Follow)](https://twitter.com/hardwario_en)
 
-This repository contains firmware Elevator Monitor for [Core Module](https://shop.bigclown.com/core-module).
+This repository contains firmware Elevator Monitor for [Core Module](https://shop.hardwario.com/core-module).
 
 You can use it in 2 modes, that is changed by the press of the button on the Core Module. If the LED on Core Module is ON it means that it is meassuring and sending you
 the data about the height of the current floor. After you have all the information about each floor, just press the Button again and the LED will be OFF, after that you will get the floor number of the elevator.
@@ -18,7 +18,7 @@ If you want to get more information about Core Module, firmware and how to work 
 
 **https://developers.hardwario.com/firmware/basic-overview/**
 
-User's application code (business logic) goes into `app/application.c`.
+User's application code (business logic) goes into `src/application.c`.
 
 ## License
 
